@@ -1,6 +1,6 @@
 package com.utopia.leetcode.codinginterviews;
 
-public class N5replaceSpace {
+public class N5ReplaceSpace {
 
     public String replaceSpace01(String s) {
 
