@@ -15,8 +15,8 @@ public class N45MinNumber {
         Arrays.sort(strings, (o1, o2) -> (o1 + o2).compareTo(o2 + o1));
 
         StringBuffer stringBuffer = new StringBuffer();
-        for (int i = 0; i < strings.length; i++){
-            stringBuffer.append(strings[i]);
+        for (String string : strings) {
+            stringBuffer.append(string);
         }
         return stringBuffer.toString();
     }
